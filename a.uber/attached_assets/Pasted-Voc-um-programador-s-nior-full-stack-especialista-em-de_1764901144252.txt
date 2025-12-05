@@ -1,0 +1,106 @@
+Você é um programador sênior full-stack especialista em desenvolvimento de apps web responsivos e PWA, com foco em arquitetura limpa, código bem organizado e pronto para produção.
+
+Sua missão é criar um sistema web tipo app para motorists tipo uber, onde vários motoristas podem se cadastrarem.
+
+Usaremos firebase para amazenamento de dados.
+
+Usaremos esse.
+
+const firebaseConfig = {
+apiKey: "AIzaSyDWnzyU_ax86VgZ_rYbI3YZhjX7NycBTrE",
+authDomain: "transporte-inteligente-143ab.firebaseapp.com",
+projectId: "transporte-inteligente-143ab",
+storageBucket: "transporte-inteligente-143ab.firebasestorage.app",
+messagingSenderId: "768242460998",
+appId: "1:768242460998:web:ed1a87472c877768d4dd47"
+};
+
+O app devi ter uma interface bonita, e bem visual.
+
+Com pagina de cliente
+Pagina de motorista .
+E pagina adiministrador.
+
+Pagina cadastro de cliente.
+Pagina cadastro de motorista.
+Pagina cadastro de adiministrador.
+
+Na pagina do cliente.
+
+O cliente coloca a origem e o destino, e o valor que pretende pagar na viagem e manda para os motoristas.
+
+Se algum motorista aceitar a viagem, chega uma msg.
+
+Motorista " joao, carro- jetta- placa xxxx " aceitou sua proposta.
+
+Se todos os motoristas recusarem a viagem, aparece uma msg, todos os motoristas recusaram sua proposta .
+
+O motorista ao recusar a proposta do cliente devi fazer uma contra proposta tipo: eu vou por xxx
+
+Ai vai chegar para o cliente esses propostas e o cliete escolhe qual vai aceitar.
+
+O cliente pode aceitar, pode fazer outra proposta ou recusa.
+
+Se o cliente aceitar a proposta.
+
+Vai aparecer para o motorista que fez a proposta a msg, cliente xxx aceitou sua proposta confirmar viagem.
+
+Assim que o motorista confirmar a viagem chega uma msg para o cliente. Viagem confirmada motorista xxx com placa xxxx carro xxx esta a caminho.
+
+E quase um sistema de bate papo e leilao de transporte.
+
+Na pagina motorista devi seguir essa mesma logica de dialogo para o app funcionar limpo.
+
+Motoristas em geral tem acesso as msg do cliente.
+
+Quem aceitar primeiro ganha a corrida.
+
+Mas a mensagem quando a cliente aceitar a proposta, esse msg so devi chegar para o motorista que fez a proposta.
+
+Devi ter a opçao de cancelar viagem, tanto do motorista quanto para o cliente.
+
+E essas msg devem permanecer no sistema por 15 dias e depois apaga automaticamente.
+Para nao super carregar o sistema.
+
+O adimin tem o total controle da sistema.
+
+Podendo excluir ou bloquear  cliente e motorista.
+
+Na pagina adimin debi aparecer todos os motoristas e todos os clientes.
+
+Controlar quantidade de clintes e motoridtas.
+
+Para manter o controle de quantas pessoas vao poder usar o app.
+
+O adimin é que define isso.
+
+Na pagina princopal por o botao dia e noite.
+
+E opçao de notificaçao no celular.
+
+O adimin pode enviar msg para os motoristas e app. Para dar extruçoes ou boas vindas.
+
+Toda vez que alguem fazer uma chamada aparecer uma msg de alurta no celular dos motoristas.
+
+Se possivel sonora.
+
+A ideia é ter um app.
+
+Onde o cliente pode segerir quando quer pagar.
+
+Os motoristas ver se aceita ou faz  outra proposta.
+
+O adimin organiza todo.
+
+Totalmente configurar para celular.
+
+Tem que ser bem responsivo e atraente o visual .
+
+Toda parte de cadastro deve acontecer direto do app.
+
+Ja deixa cadastrado no sistema o adiministrador.
+
+Nome leandro
+Email.  pastorleocardoso@gmail.com
+Senha. 152624Ni
+Whatsapp. 15981677695
